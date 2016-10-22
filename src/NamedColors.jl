@@ -11,7 +11,7 @@ end
 Parses as string of the form #RRGGBB
 eg \"#32CD32\" (limegreen) into a color
 """
-parse_hexcode(h::AbstractString) = RGB24(parse(UInt32,h[2:end],16))
+parse_hexcode(h::AbstractString) = reinterpret(RGB24, parse(UInt32,h[2:end],16))
 
 "Parses three strings that are integers between 0-255, and converts to color"
 function parse_decimal256(r::AbstractString, 
@@ -23,7 +23,7 @@ function parse_decimal256(r::AbstractString,
     ret+=parse(UInt8,g)
     ret<<=8
     ret+=parse(UInt8,b)
-    RGB24(ret)
+    reinterpret(RGB24, ret)
 end
 
 
@@ -69,7 +69,6 @@ the `r`, `g` and `b` terms are numbers between 0 and 256 in decimal
 Lines starting with `!` are comments and are skipped
 """
 function load_x11_style(path)
-    @show path
 	lines = eachline(path)
     data = Dict{String, RGB24}()
     for line in lines
