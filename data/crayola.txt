@@ -1,0 +1,197 @@
+! A large portion of all Crayola Crayon Colors. Source: https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors
+238 217 196	 Almond
+200 138 101	 Antique Brass
+253 213 177	 Apricot
+149 224 232	 Aquamarine
+123 160 91	 Asparagus
+255 153 102	 Atomic Tangerine
+251 231 178	 Banana Mania
+146 111 91	 Beaver
+254 111 94	 Bittersweet
+0 0 0	 Black
+80 191 230	 Blizzard Blue
+46 180 230	 Blue (I)
+69 112 230	 Blue (II)
+0 102 255	 Blue (III)
+153 153 204	 Blue Bell
+200 200 205	 Blue-Gray
+0 149 183	 Blue-Green
+100 86 183	 Blue-Violet
+219 80 121	 Blush
+198 45 66	 Brick Red
+230 103 206	 Brilliant Rose
+175 89 62	 Brown
+255 112 52	 Burnt Orange
+233 116 81	 Burnt Sienna
+128 85 51	 Burnt Umber
+169 178 195	 Cadet Blue
+255 255 153	 Canary
+0 204 153	 Caribbean Green
+230 46 107	 Carmine
+255 166 201	 Carnation Pink
+112 112 204	 Celestial Blue
+218 50 135	 Cerise
+2 164 211	 Cerulean
+51 154 204	 Cerulean Blue
+115 106 98	 Charcoal Gray
+140 144 200	 Cobalt Blue
+218 138 103	 Copper
+147 204 234	 Cornflower
+255 183 213	 Cotton Candy
+254 216 93	 Dandelion
+179 59 36	 Dark Venetian Red
+21 96 189	 Denim
+237 201 175	 Desert Sand
+97 64 81	 Eggplant
+204 255 0	 Electric Lime
+204 71 75	 English Vermilion
+99 183 108	 Fern
+95 167 119	 Forest Green
+193 84 193	 Fuchsia
+135 66 31	 Fuzzy Wuzzy
+146 146 110	 Gold (I)
+230 190 138	 Gold (II)
+252 214 103	 Goldenrod
+157 224 147	 Granny Smith Apple
+139 134 128	 Gray
+58 166 85	 Green
+40 135 200	 Green-Blue
+241 231 136	 Green-Yellow
+255 0 204	 Hot Magenta
+175 227 19	 Inchworm
+185 78 72	 Indian Red
+79 105 198	 Indigo
+165 11 94	 Jazzberry Jam
+41 171 135	 Jungle Green
+255 255 102	 Laser Lemon
+191 143 204	 Lavender (I)
+251 174 210	 Lavender (II)
+255 255 159	 Lemon Yellow
+143 216 216	 Light Blue
+190 230 75	 Light Chrome Green
+230 115 92	 Light Venetian Red
+255 185 123	 Macaroni and Cheese
+204 51 54	 Madder Lake
+246 83 166	 Magenta
+170 240 209	 Magic Mint
+202 52 53	 Mahogany
+242 198 73	 Maize
+141 144 161	 Manatee
+231 114 0	 Mango Tango
+195 33 72	 Maroon
+240 145 169	 Mauvelous
+71 171 204	 Maximum Blue
+48 191 191	 Maximum Blue Green
+172 172 230	 Maximum Blue Purple
+94 140 49	 Maximum Green
+217 230 80	 Maximum Green Yellow
+115 51 128	 Maximum Purple
+217 33 33	 Maximum Red
+166 58 121	 Maximum Red Purple
+250 250 55	 Maximum Yellow
+242 186 73	 Maximum Yellow Red
+108 166 124	 Medium Chrome Green
+217 108 190	 Medium Rose
+143 71 179	 Medium Violet
+254 186 173	 Melon
+126 212 230	 Middle Blue
+141 217 204	 Middle Blue Green
+139 114 190	 Middle Blue Purple
+77 140 87	 Middle Green
+172 191 96	 Middle Green Yellow
+217 130 181	 Middle Purple
+229 144 115	 Middle Red
+165 83 83	 Middle Red Purple
+255 235 0	 Middle Yellow
+236 177 118	 Middle Yellow Red
+0 70 140	 Midnight Blue
+26 179 133	 Mountain Meadow
+200 80 155	 Mulberry
+0 102 204	 Navy Blue
+255 153 51	 Neon Carrot
+181 179 92	 Olive Green
+255 136 100	 Orange
+255 63 52	 Orange-Red
+248 213 104	 Orange-Yellow
+226 156 210	 Orchid
+45 56 58	 Outer Space
+255 96 55	 Outrageous Orange
+0 157 196	 Pacific Blue
+255 203 164	 Peach
+255 203 164	 Peach
+195 205 230	 Periwinkle
+225 44 44	 Permanent Geranium Lake
+253 215 228	 Pig Pink
+1 120 111	 Pine Green
+252 116 253	 Pink Flamingo
+247 163 142	 Pink Sherbert
+142 49 121	 Plum
+101 45 193	 Purple Heart
+214 174 221	 Purple Mountains' Majesty
+255 0 204	 Purple Pizzazz
+255 53 94	 Radical Red
+210 125 70	 Raw Sienna
+230 188 92	 Raw Sienna (I)
+102 82 51	 Raw Umber
+238 52 210	 Razzle Dazzle Rose
+227 11 92	 Razzmatazz
+237 10 63	 Red
+255 104 31	 Red-Orange
+187 51 133	 Red-Violet
+0 204 204	 Robin's Egg Blue
+107 63 160	 Royal Purple
+255 145 164	 Salmon
+253 14 53	 Scarlet
+102 255 102	 Screamin' Green
+147 223 184	 Sea Green
+158 91 64	 Sepia
+131 112 80	 Shadow
+51 204 153	 Shamrock
+255 110 255	 Shocking Pink
+201 192 187	 Silver
+118 215 234	 Sky Blue
+236 235 189	 Spring Green
+255 204 51	 Sunglow
+254 76 64	 Sunset Orange
+217 154 108	 Tan
+0 128 128	 Teal Blue
+235 176 215	 Thistle
+252 128 165	 Tickle Me Pink
+217 214 207	 Timberwolf
+0 117 94	 Tropical Rain Forest
+222 166 129	 Tumbleweed
+108 218 231	 Turquoise Blue
+63 38 191	 Ultramarine Blue
+255 255 102	 Unmellow Yellow
+102 66 40	 Van Dyke Brown
+204 85 61	 Venetian Red
+115 46 108	 Violet (I)
+131 89 163	 Violet (II)
+118 110 200	 Violet-Blue
+247 70 138	 Violet-Red
+255 153 128	 Vivid Tangerine
+128 55 144	 Vivid Violet
+255 255 255	 White
+122 137 184	 Wild Blue Yonder
+255 51 153	 Wild Strawberry
+253 91 120	 Wild Watermelon
+201 160 220	 Wisteria
+252 232 131	 Yellow
+197 225 122	 Yellow-Green
+255 174 66	 Yellow-Orange
+196 98 16	Alloy Orange
+46 88 148	B'dazzled Blue
+156 37 66	Big Dip O' Ruby
+191 79 81	Bittersweet Shimmer
+165 113 100	Blast Off Bronze
+88 66 124	Cyber Grape
+74 100 108	Deep Space Sparkle
+133 117 78	Gold Fusion
+49 145 119	Illuminating Emerald
+10 126 140	Metallic Seaweed
+156 124 56	Metallic Sunburst
+141 78 133	Razzmic Berry
+143 212 0	Sheen Green
+217 134 149	Shimmering Blush
+117 117 117	Sonic Silver
+0 129 171	Steel Blue
