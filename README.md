@@ -47,25 +47,19 @@ function rand_subdict(dict::Associative, len::Integer)
     keep_keys = rand(collect(keys(dict)), len)
     Dict(zip(keep_keys, getindex.([dict], keep_keys))) 
 end
-sample_size=10
-crayola_sample = rand_subdict(load_crayola(), sample_size)
-css3_sample = rand_subdict(load_css3(), sample_size)
-x11_sample = rand_subdict(load_x11(), sample_size)
-nbs_sample = rand_subdict(load_nbs(), sample_size)
-resene_sample = rand_subdict(load_resene(), sample_size)
-xkcd_sample = rand_subdict(xkcd, sample_size)
-###########
 
+
+sample_size=10
 plot(background_color=xkcd["blood"], leg=false)
 xlims!(0,6+1)
 ylims!(-1,sample_size+3)
 for (ii,(source_name, sample)) in enumerate([
-        ("Crayola", crayola_sample),
-        ("CSS3", css3_sample),
-        ("X11", x11_sample),
-        ("NBS", nbs_sample),
-        ("Resene", resene_sample),
-        ("XKCD", xkcd_sample)])
+        ("Crayola", rand_subdict(load_crayola(), sample_size)),
+        ("CSS3", rand_subdict(load_css3(), sample_size)),
+        ("X11", rand_subdict(load_x11(), sample_size)),
+        ("NBS", rand_subdict(load_nbs(), sample_size)),
+        ("Resene", rand_subdict(load_resene(), sample_size)),
+        ("XKCD", rand_subdict(xkcd, sample_size))])
     
     color_names = collect(keys(sample))
     colors = collect(values(sample))
@@ -79,7 +73,6 @@ for (ii,(source_name, sample)) in enumerate([
     )
 end
 title!("NamedColors Sample")
-
 
 ```
 
