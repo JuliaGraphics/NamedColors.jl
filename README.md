@@ -8,7 +8,7 @@
 
 [Colors.jl](https://github.com/JuliaGraphics/Colors.jl#color-parsing) supports about 250 colours as named colorants.
 NamedColors.jl supports about 2,500.
-Honestly, the named colours in Colors.jl, and/or its capacity to generate appropriately dispersed palletes.
+Honestly, the named colours in Colors.jl, and/or its capacity to generate good palletes, are far more useful.
 But don't you want the quiet smugness the comes from knowing that you presentaton is colored with XKCD's *booger*;
 or to really razzele dazzle them with Crayola's *Razzle Dazzle Rose*.
 Perhaps you enjoy taking standardization to the next level, with the well define colours of the NBS, ranging from *oliveblack* to  *vividgreenishblue*.
