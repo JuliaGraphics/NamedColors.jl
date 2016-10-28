@@ -1,10 +1,13 @@
 # NamedColors
 
-[![Build Status](https://travis-ci.org/oxinabox/NamedColors.jl.svg?branch=master)](https://travis-ci.org/oxinabox/NamedColors.jl)
+[![Build Status](https://travis-ci.org/JuliaGraphics/NamedColors.jl.svg?branch=master)](https://travis-ci.org/oxinabox/NamedColors.jl)
 
-[![Coverage Status](https://coveralls.io/repos/oxinabox/NamedColors.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/oxinabox/NamedColors.jl?branch=master)
+[![Build status](https://ci.appveyor.com/api/projects/status/st69c4d3j8wt4sdk?svg=true)](https://ci.appveyor.com/project/oxinabox/namedcolors-jl)
 
-[![codecov.io](http://codecov.io/github/oxinabox/NamedColors.jl/coverage.svg?branch=master)](http://codecov.io/github/oxinabox/NamedColors.jl?branch=master)
+
+[![Coverage Status](https://coveralls.io/repos/JuliaGraphics/NamedColors.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/oxinabox/NamedColors.jl?branch=master)
+
+[![codecov.io](http://codecov.io/github/JuliaGraphics/NamedColors.jl/coverage.svg?branch=master)](http://codecov.io/github/oxinabox/NamedColors.jl?branch=master)
 
 [Colors.jl](https://github.com/JuliaGraphics/Colors.jl#color-parsing) supports about 660 colors as named colorants.
 NamedColors.jl supports about 3,500.
