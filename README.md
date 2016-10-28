@@ -13,7 +13,7 @@ But don't you want the quiet smugness the comes from knowing that you presentato
 or to really razzele dazzle them with Crayola's *Razzle Dazzle Rose*.
 Perhaps you enjoy taking standardization to the next level, with the well define colours of the NBS, ranging from *oliveblack* to  *vividgreenishblue*.
 
-[![A plot showing a random sample of colors from each set](proto/demo.png)
+![A plot showing a random sample of colors from each set](proto/demo.png)
 
 [Code for the above chart](proto/DemoChart.ipynb)
 
@@ -24,7 +24,8 @@ This does all the normal things that the `colorant` string macro did before.
 But if it fails to find a color using the ones Color.jl has defined, then it goes and searchs the big list.
 If it still fails to find a named color, it will give suggestions for the color you meant -- this is the easiest way to search for a color name.
 
-[![Image showing usage](proto/usage.PNG)
+![Image showing usage](proto/usage.PNG)
+
 [Code for the above usage example](proto/Usage.ipynb)
 
 Further to this, every exported function has docstrings.
