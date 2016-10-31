@@ -1,5 +1,5 @@
 function datafile(filename)
-	joinpath(Pkg.dir("NamedColors"),"data", filename)
+	joinpath(dirname(@__FILE__),"..","data", filename)
 end
 
 """
