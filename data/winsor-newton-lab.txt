@@ -1,0 +1,620 @@
+;"winsor-newton-lab.txt" color dictionary
+;Copyright 2010 Aubrey Jaffer
+;
+;Permission to copy this dictionary, to modify it, to redistribute it,
+;to distribute modified versions, and to use it for any purpose is
+;granted, subject to the following restrictions and understandings.
+;
+;1.  Any copy made of this dictionary must include this copyright notice
+;in full.
+;
+;2.  I have made no warranty or representation that this data is
+;error-free, and I am under no obligation to provide any services, by
+;way of maintenance, update, or otherwise.
+;
+;3.  In conjunction with products arising from the use of this material,
+;there shall be no use of my name in any advertising, promotional, or
+;sales literature without prior written consent in each case.
+
+XCMS_COLORDB_START 0.1
+lamp black light		CIELab:47.19/-0.11/4.14
+LampBlackLight			CIELab:47.19/-0.11/4.14
+lamp black medium		CIELab:14.32/-0.07/-0.34
+LampBlackMedium			CIELab:14.32/-0.07/-0.34
+lamp black dark			CIELab:9.81/-0.03/-0.18
+LampBlackDark			CIELab:9.81/-0.03/-0.18
+ivory black light		CIELab:72.03/-0.03/9.89
+IvoryBlackLight			CIELab:72.03/-0.03/9.89
+ivory black medium		CIELab:44.20/0.68/8.97
+IvoryBlackMedium		CIELab:44.20/0.68/8.97
+ivory black dark		CIELab:21.87/0.73/5.13
+IvoryBlackDark			CIELab:21.87/0.73/5.13
+mars black light		CIELab:70.40/0.32/9.01
+MarsBlackLight			CIELab:70.40/0.32/9.01
+mars black medium		CIELab:28.33/0.64/3.38
+MarsBlackMedium			CIELab:28.33/0.64/3.38
+mars black dark			CIELab:17.30/0.22/-0.01
+MarsBlackDark			CIELab:17.30/0.22/-0.01
+blue black light		CIELab:47.58/-2.61/-0.20
+BlueBlackLight			CIELab:47.58/-2.61/-0.20
+blue black medium		CIELab:30.98/-2.76/-6.19
+BlueBlackMedium			CIELab:30.98/-2.76/-6.19
+blue black dark			CIELab:5.31/-1.01/-6.64
+BlueBlackDark			CIELab:5.31/-1.01/-6.64
+paynes gray light		CIELab:67.51/-2.10/1.76
+PaynesGrayLight			CIELab:67.51/-2.10/1.76
+paynes gray medium		CIELab:37.82/-2.39/-7.05
+PaynesGrayMedium		CIELab:37.82/-2.39/-7.05
+paynes gray dark		CIELab:25.24/-1.97/-7.56
+PaynesGrayDark			CIELab:25.24/-1.97/-7.56
+charcoal gray light		CIELab:55.84/-0.17/9.53
+CharcoalGrayLight		CIELab:55.84/-0.17/9.53
+charcoal gray medium		CIELab:32.33/0.20/6.53
+CharcoalGrayMedium		CIELab:32.33/0.20/6.53
+charcoal gray dark		CIELab:10.17/0.14/2.49
+CharcoalGrayDark		CIELab:10.17/0.14/2.49
+davys gray light		CIELab:76.80/-1.36/19.28
+DavysGrayLight			CIELab:76.80/-1.36/19.28
+davys gray medium		CIELab:61.53/-1.34/21.11
+DavysGrayMedium			CIELab:61.53/-1.34/21.11
+davys gray dark			CIELab:51.88/-1.17/20.71
+DavysGrayDark			CIELab:51.88/-1.17/20.71
+raw umber light			CIELab:55.86/3.31/27.12
+RawUmberLight			CIELab:55.86/3.31/27.12
+raw umber medium		CIELab:31.03/4.16/15.81
+RawUmberMedium			CIELab:31.03/4.16/15.81
+raw umber dark			CIELab:28.26/3.86/13.16
+RawUmberDark			CIELab:28.26/3.86/13.16
+vandyke brown light		CIELab:57.66/7.52/31.17
+VandykeBrownLight		CIELab:57.66/7.52/31.17
+vandyke brown medium		CIELab:38.24/9.93/26.47
+VandykeBrownMedium		CIELab:38.24/9.93/26.47
+vandyke brown dark		CIELab:26.55/6.24/9.20
+VandykeBrownDark		CIELab:26.55/6.24/9.20
+burnt umber light		CIELab:36.30/12.34/27.37
+BurntUmberLight			CIELab:36.30/12.34/27.37
+burnt umber medium		CIELab:24.15/2.81/3.99
+BurntUmberMedium		CIELab:24.15/2.81/3.99
+burnt umber dark		CIELab:23.24/2.75/4.20
+BurntUmberDark			CIELab:23.24/2.75/4.20
+brown madder light		CIELab:65.99/11.01/29.68
+BrownMadderLight		CIELab:65.99/11.01/29.68
+brown madder medium		CIELab:46.58/16.10/32.74
+BrownMadderMedium		CIELab:46.58/16.10/32.74
+brown madder dark		CIELab:29.29/16.60/23.30
+BrownMadderDark			CIELab:29.29/16.60/23.30
+mars violet deep light		CIELab:68.95/10.57/11.51
+MarsVioletDeepLight		CIELab:68.95/10.57/11.51
+mars violet deep medium		CIELab:34.85/15.42/11.07
+MarsVioletDeepMedium		CIELab:34.85/15.42/11.07
+mars violet deep dark		CIELab:26.43/16.15/11.61
+MarsVioletDeepDark		CIELab:26.43/16.15/11.61
+mars violet light		CIELab:76.55/10.19/23.29
+MarsVioletLight			CIELab:76.55/10.19/23.29
+mars violet medium		CIELab:61.13/18.45/23.90
+MarsVioletMedium		CIELab:61.13/18.45/23.90
+mars violet dark		CIELab:32.34/24.66/27.48
+MarsVioletDark			CIELab:32.34/24.66/27.48
+indian red light		CIELab:67.15/17.48/20.63
+IndianRedLight			CIELab:67.15/17.48/20.63
+indian red medium		CIELab:36.78/26.95/28.28
+IndianRedMedium			CIELab:36.78/26.95/28.28
+indian red dark			CIELab:30.47/24.34/27.03
+IndianRedDark			CIELab:30.47/24.34/27.03
+venetian red light		CIELab:59.17/28.04/40.01
+VenetianRedLight		CIELab:59.17/28.04/40.01
+venetian red medium		CIELab:42.05/30.75/40.72
+VenetianRedMedium		CIELab:42.05/30.75/40.72
+venetian red dark		CIELab:35.82/27.33/37.35
+VenetianRedDark			CIELab:35.82/27.33/37.35
+pale red light			CIELab:71.03/17.60/39.10
+PaleRedLight			CIELab:71.03/17.60/39.10
+pale red medium			CIELab:47.67/28.99/47.71
+PaleRedMedium			CIELab:47.67/28.99/47.71
+pale red dark			CIELab:37.44/27.09/38.12
+PaleRedDark			CIELab:37.44/27.09/38.12
+terra rosa light		CIELab:64.48/24.35/39.96
+TerraRosaLight			CIELab:64.48/24.35/39.96
+terra rosa medium		CIELab:45.52/32.51/49.90
+TerraRosaMedium			CIELab:45.52/32.51/49.90
+terra rosa dark			CIELab:38.98/31.21/48.70
+TerraRosaDark			CIELab:38.98/31.21/48.70
+mars orage light		CIELab:44.69/27.61/46.44
+MarsOrageLight			CIELab:44.69/27.61/46.44
+mars orage medium		CIELab:40.78/22.49/39.46
+MarsOrageMedium			CIELab:40.78/22.49/39.46
+mars orage dark			CIELab:40.74/21.69/37.63
+MarsOrageDark			CIELab:40.74/21.69/37.63
+mars brown light		CIELab:71.79/13.82/33.09
+MarsBrownLight			CIELab:71.79/13.82/33.09
+mars brown medium		CIELab:48.34/21.83/40.21
+MarsBrownMedium			CIELab:48.34/21.83/40.21
+mars brown dark			CIELab:30.00/17.32/28.06
+MarsBrownDark			CIELab:30.00/17.32/28.06
+burnt sienna light		CIELab:55.37/21.52/46.28
+BurntSiennaLight		CIELab:55.37/21.52/46.28
+burnt sienna medium		CIELab:39.36/21.25/26.50
+BurntSiennaMedium		CIELab:39.36/21.25/26.50
+burnt sienna dark		CIELab:34.34/17.78/18.58
+BurntSiennaDark			CIELab:34.34/17.78/18.58
+trans gold ochre light		CIELab:82.41/4.60/53.09
+TransGoldOchreLight		CIELab:82.41/4.60/53.09
+trans gold ochre medium		CIELab:67.21/14.15/74.46
+TransGoldOchreMedium		CIELab:67.21/14.15/74.46
+trans gold ochre dark		CIELab:62.44/16.33/71.63
+TransGoldOchreDark		CIELab:62.44/16.33/71.63
+raw sienna light		CIELab:82.14/6.13/55.81
+RawSiennaLight			CIELab:82.14/6.13/55.81
+raw sienna medium		CIELab:73.62/12.29/70.47
+RawSiennaMedium			CIELab:73.62/12.29/70.47
+raw sienna dark			CIELab:65.28/16.98/74.32
+RawSiennaDark			CIELab:65.28/16.98/74.32
+yellow ochre light		CIELab:82.39/6.00/57.39
+YellowOchreLight		CIELab:82.39/6.00/57.39
+yellow ochre medium		CIELab:67.01/15.24/70.61
+YellowOchreMedium		CIELab:67.01/15.24/70.61
+yellow ochre dark		CIELab:58.85/15.89/59.05
+YellowOchreDark			CIELab:58.85/15.89/59.05
+mars yellow light		CIELab:85.54/4.65/51.70
+MarsYellowLight			CIELab:85.54/4.65/51.70
+mars yellow medium		CIELab:68.93/15.27/76.26
+MarsYellowMedium		CIELab:68.93/15.27/76.26
+mars yellow dark		CIELab:61.87/14.14/65.33
+MarsYellowDark			CIELab:61.87/14.14/65.33
+gold ochre light		CIELab:82.73/6.25/62.81
+GoldOchreLight			CIELab:82.73/6.25/62.81
+gold ochre medium		CIELab:70.86/14.49/76.70
+GoldOchreMedium			CIELab:70.86/14.49/76.70
+gold ochre dark			CIELab:62.21/14.17/63.50
+GoldOchreDark			CIELab:62.21/14.17/63.50
+yellow ochre pale light		CIELab:77.37/11.14/83.49
+YellowOchrePaleLight		CIELab:77.37/11.14/83.49
+yellow ochre pale medium	CIELab:66.29/14.70/75.76
+YellowOchrePaleMedium		CIELab:66.29/14.70/75.76
+yellow ochre pale dark		CIELab:63.14/12.96/67.46
+YellowOchrePaleDark		CIELab:63.14/12.96/67.46
+naples yellow light		CIELab:93.93/-2.05/24.19
+NaplesYellowLight		CIELab:93.93/-2.05/24.19
+naples yellow medium		CIELab:91.41/-0.52/48.31
+NaplesYellowMedium		CIELab:91.41/-0.52/48.31
+naples yellow dark		CIELab:89.28/1.92/56.29
+NaplesYellowDark		CIELab:89.28/1.92/56.29
+naples yellow pale light	CIELab:93.36/-2.49/21.76
+NaplesYellowPaleLight		CIELab:93.36/-2.49/21.76
+naples yellow pale medium	CIELab:92.75/-1.90/39.88
+NaplesYellowPaleMedium		CIELab:92.75/-1.90/39.88
+naples yellow pale dark		CIELab:92.36/-0.46/43.38
+NaplesYellowPaleDark		CIELab:92.36/-0.46/43.38
+jaune brilliant light		CIELab:90.85/0.94/38.97
+JauneBrilliantLight		CIELab:90.85/0.94/38.97
+jaune brilliant medium		CIELab:87.90/4.39/55.21
+JauneBrilliantMedium		CIELab:87.90/4.39/55.21
+jaune brilliant dark		CIELab:85.86/7.64/60.88
+JauneBrilliantDark		CIELab:85.86/7.64/60.88
+olive green light		CIELab:51.13/-0.70/38.45
+OliveGreenLight			CIELab:51.13/-0.70/38.45
+olive green medium		CIELab:41.98/0.14/35.76
+OliveGreenMedium		CIELab:41.98/0.14/35.76
+olive green dark		CIELab:29.87/1.13/26.23
+OliveGreenDark			CIELab:29.87/1.13/26.23
+sap green light			CIELab:43.29/-15.06/66.92
+SapGreenLight			CIELab:43.29/-15.06/66.92
+sap green medium		CIELab:33.53/-15.50/51.80
+SapGreenMedium			CIELab:33.53/-15.50/51.80
+sap green dark			CIELab:20.91/-14.07/30.49
+SapGreenDark			CIELab:20.91/-14.07/30.49
+perm sap green light		CIELab:75.99/-14.26/64.55
+PermSapGreenLight		CIELab:75.99/-14.26/64.55
+perm sap green medium		CIELab:59.63/-16.15/70.67
+PermSapGreenMedium		CIELab:59.63/-16.15/70.67
+perm sap green dark		CIELab:44.55/-14.76/56.06
+PermSapGreenDark		CIELab:44.55/-14.76/56.06
+prussian green light		CIELab:51.64/-21.80/31.57
+PrussianGreenLight		CIELab:51.64/-21.80/31.57
+prussian green medium		CIELab:34.86/-24.64/27.00
+PrussianGreenMedium		CIELab:34.86/-24.64/27.00
+prussian green dark		CIELab:34.10/-25.26/26.90
+PrussianGreenDark		CIELab:34.10/-25.26/26.90
+green light			CIELab:35.48/-56.30/10.98
+GreenLight			CIELab:35.48/-56.30/10.98
+green medium			CIELab:21.51/-47.23/5.75
+GreenMedium			CIELab:21.51/-47.23/5.75
+green dark			CIELab:10.60/-23.96/-2.58
+GreenDark			CIELab:10.60/-23.96/-2.58
+green yellow light		CIELab:39.11/-55.53/28.92
+GreenYellowLight		CIELab:39.11/-55.53/28.92
+green yellow medium		CIELab:33.51/-53.16/25.03
+GreenYellowMedium		CIELab:33.51/-53.16/25.03
+green yellow dark		CIELab:31.84/-52.60/24.02
+GreenYellowDark			CIELab:31.84/-52.60/24.02
+viridian light			CIELab:67.22/-24.90/10.91
+ViridianLight			CIELab:67.22/-24.90/10.91
+viridian medium			CIELab:49.18/-38.76/9.39
+ViridianMedium			CIELab:49.18/-38.76/9.39
+viridian dark			CIELab:38.43/-43.55/9.34
+ViridianDark			CIELab:38.43/-43.55/9.34
+co green deep light		CIELab:82.34/-7.52/19.61
+CoGreenDeepLight		CIELab:82.34/-7.52/19.61
+co green deep medium		CIELab:67.73/-15.29/19.10
+CoGreenDeepMedium		CIELab:67.73/-15.29/19.10
+co green deep dark		CIELab:39.72/-23.83/16.79
+CoGreenDeepDark			CIELab:39.72/-23.83/16.79
+cr green deep light		CIELab:65.97/-20.69/11.07
+CrGreenDeepLight		CIELab:65.97/-20.69/11.07
+cr green deep medium		CIELab:32.93/-23.53/9.43
+CrGreenDeepMedium		CIELab:32.93/-23.53/9.43
+cr green deep dark		CIELab:27.89/-16.46/5.63
+CrGreenDeepDark			CIELab:27.89/-16.46/5.63
+oxide of cr light		CIELab:57.76/-16.35/29.67
+OxideOfCrLight			CIELab:57.76/-16.35/29.67
+oxide of cr medium		CIELab:48.67/-18.96/28.53
+OxideOfCrMedium			CIELab:48.67/-18.96/28.53
+oxide of cr dark		CIELab:41.69/-19.61/25.72
+OxideOfCrDark			CIELab:41.69/-19.61/25.72
+terre verte light		CIELab:77.21/-10.88/19.97
+TerreVerteLight			CIELab:77.21/-10.88/19.97
+terre verte medium		CIELab:60.14/-16.75/22.74
+TerreVerteMedium		CIELab:60.14/-16.75/22.74
+terre verte dark		CIELab:58.34/-17.19/22.78
+TerreVerteDark			CIELab:58.34/-17.19/22.78
+perm green deep light		CIELab:48.57/-56.15/26.91
+PermGreenDeepLight		CIELab:48.57/-56.15/26.91
+perm green deep medium		CIELab:35.07/-55.98/21.53
+PermGreenDeepMedium		CIELab:35.07/-55.98/21.53
+perm green deep dark		CIELab:26.04/-47.40/14.23
+PermGreenDeepDark		CIELab:26.04/-47.40/14.23
+perm green light		CIELab:63.26/-44.02/36.05
+PermGreenLight			CIELab:63.26/-44.02/36.05
+perm green medium		CIELab:51.60/-52.17/36.90
+PermGreenMedium			CIELab:51.60/-52.17/36.90
+perm green dark			CIELab:46.39/-53.44/35.07
+PermGreenDark			CIELab:46.39/-53.44/35.07
+perm green pale light		CIELab:62.12/-33.29/46.56
+PermGreenPaleLight		CIELab:62.12/-33.29/46.56
+perm green pale medium		CIELab:50.80/-38.80/40.31
+PermGreenPaleMedium		CIELab:50.80/-38.80/40.31
+perm green pale dark		CIELab:44.48/-39.09/33.96
+PermGreenPaleDark		CIELab:44.48/-39.09/33.96
+emerald light			CIELab:69.24/-46.06/26.98
+EmeraldLight			CIELab:69.24/-46.06/26.98
+emerald medium			CIELab:59.08/-51.09/25.15
+EmeraldMedium			CIELab:59.08/-51.09/25.15
+emerald dark			CIELab:49.61/-45.69/17.27
+EmeraldDark			CIELab:49.61/-45.69/17.27
+cd green light			CIELab:73.33/-25.14/56.96
+CdGreenLight			CIELab:73.33/-25.14/56.96
+cd green medium			CIELab:63.00/-33.96/59.84
+CdGreenMedium			CIELab:63.00/-33.96/59.84
+cd green dark			CIELab:52.25/-38.54/52.14
+CdGreenDark			CIELab:52.25/-38.54/52.14
+cd green pale light		CIELab:76.37/-22.09/83.72
+CdGreenPaleLight		CIELab:76.37/-22.09/83.72
+cd green pale medium		CIELab:69.37/-25.34/76.84
+CdGreenPaleMedium		CIELab:69.37/-25.34/76.84
+cd green pale dark		CIELab:67.35/-25.33/75.64
+CdGreenPaleDark			CIELab:67.35/-25.33/75.64
+co green light			CIELab:78.95/-11.37/13.38
+CoGreenLight			CIELab:78.95/-11.37/13.38
+co green medium			CIELab:69.62/-18.67/9.53
+CoGreenMedium			CIELab:69.62/-18.67/9.53
+co green dark			CIELab:54.31/-27.85/4.86
+CoGreenDark			CIELab:54.31/-27.85/4.86
+co turquoise light		CIELab:65.18/-18.28/-7.92
+CoTurquoiseLight		CIELab:65.18/-18.28/-7.92
+co turquoise medium		CIELab:48.36/-24.77/-15.69
+CoTurquoiseMedium		CIELab:48.36/-24.77/-15.69
+co turquoise dark		CIELab:39.39/-26.36/-17.53
+CoTurquoiseDark			CIELab:39.39/-26.36/-17.53
+pthalo turquoise light		CIELab:55.53/-32.21/-30.23
+PthaloTurquoiseLight		CIELab:55.53/-32.21/-30.23
+pthalo turquoise medium		CIELab:35.03/-34.56/-34.83
+PthaloTurquoiseMedium		CIELab:35.03/-34.56/-34.83
+pthalo turquoise dark		CIELab:21.00/-23.16/-25.27
+PthaloTurquoiseDark		CIELab:21.00/-23.16/-25.27
+indigo light			CIELab:58.09/-5.84/-3.71
+IndigoLight			CIELab:58.09/-5.84/-3.71
+indigo medium			CIELab:14.91/-3.15/-11.82
+IndigoMedium			CIELab:14.91/-3.15/-11.82
+indigo dark			CIELab:5.81/-0.23/-3.19
+IndigoDark			CIELab:5.81/-0.23/-3.19
+prussian blue light		CIELab:69.23/-13.82/-8.76
+PrussianBlueLight		CIELab:69.23/-13.82/-8.76
+prussian blue medium		CIELab:35.89/-12.66/-37.21
+PrussianBlueMedium		CIELab:35.89/-12.66/-37.21
+prussian blue dark		CIELab:6.48/6.81/-28.08
+PrussianBlueDark		CIELab:6.48/6.81/-28.08
+indathrene blue light		CIELab:28.63/4.21/-49.89
+IndathreneBlueLight		CIELab:28.63/4.21/-49.89
+indathrene blue medium		CIELab:18.70/12.14/-48.61
+IndathreneBlueMedium		CIELab:18.70/12.14/-48.61
+indathrene blue dark		CIELab:14.02/13.91/-41.49
+IndathreneBlueDark		CIELab:14.02/13.91/-41.49
+ultramarine light		CIELab:44.28/5.01/-60.24
+UltramarineLight		CIELab:44.28/5.01/-60.24
+ultramarine medium		CIELab:30.85/17.31/-72.01
+UltramarineMedium		CIELab:30.85/17.31/-72.01
+ultramarine dark		CIELab:26.26/22.27/-68.82
+UltramarineDark			CIELab:26.26/22.27/-68.82
+ultramarine green light		CIELab:62.03/-7.86/-32.78
+UltramarineGreenLight		CIELab:62.03/-7.86/-32.78
+ultramarine green medium	CIELab:37.23/0.73/-64.62
+UltramarineGreenMedium		CIELab:37.23/0.73/-64.62
+ultramarine green dark		CIELab:27.10/13.27/-66.15
+UltramarineGreenDark		CIELab:27.10/13.27/-66.15
+blue red light			CIELab:55.78/-19.71/-32.15
+BlueRedLight			CIELab:55.78/-19.71/-32.15
+blue red medium			CIELab:31.83/-15.45/-53.76
+BlueRedMedium			CIELab:31.83/-15.45/-53.76
+blue red dark			CIELab:26.65/-11.26/-54.90
+BlueRedDark			CIELab:26.65/-11.26/-54.90
+blue green light		CIELab:37.96/-19.71/-52.80
+BlueGreenLight			CIELab:37.96/-19.71/-52.80
+blue green medium		CIELab:22.16/-6.04/-46.12
+BlueGreenMedium			CIELab:22.16/-6.04/-46.12
+blue green dark			CIELab:14.31/1.42/-35.91
+BlueGreenDark			CIELab:14.31/1.42/-35.91
+co blue deep light		CIELab:51.93/-1.33/-45.04
+CoBlueDeepLight			CIELab:51.93/-1.33/-45.04
+co blue deep medium		CIELab:37.43/4.30/-59.73
+CoBlueDeepMedium		CIELab:37.43/4.30/-59.73
+co blue deep dark		CIELab:33.75/6.77/-62.86
+CoBlueDeepDark			CIELab:33.75/6.77/-62.86
+co blue light			CIELab:74.43/-7.76/-14.69
+CoBlueLight			CIELab:74.43/-7.76/-14.69
+co blue medium			CIELab:57.52/-10.13/-37.11
+CoBlueMedium			CIELab:57.52/-10.13/-37.11
+co blue dark			CIELab:44.29/-11.34/-48.53
+CoBlueDark			CIELab:44.29/-11.34/-48.53
+cerulean blue light		CIELab:54.86/-20.14/-29.52
+CeruleanBlueLight		CIELab:54.86/-20.14/-29.52
+cerulean blue medium		CIELab:36.90/-17.40/-38.72
+CeruleanBlueMedium		CIELab:36.90/-17.40/-38.72
+cerulean blue dark		CIELab:34.63/-15.82/-38.39
+CeruleanBlueDark		CIELab:34.63/-15.82/-38.39
+mn blue light			CIELab:81.24/-14.20/-3.37
+MnBlueLight			CIELab:81.24/-14.20/-3.37
+mn blue medium			CIELab:65.71/-27.01/-22.39
+MnBlueMedium			CIELab:65.71/-27.01/-22.39
+mn blue dark			CIELab:57.18/-32.44/-30.26
+MnBlueDark			CIELab:57.18/-32.44/-30.26
+purple madder light		CIELab:26.13/28.34/7.15
+PurpleMadderLight		CIELab:26.13/28.34/7.15
+purple madder medium		CIELab:18.70/23.17/9.35
+PurpleMadderMedium		CIELab:18.70/23.17/9.35
+purple madder dark		CIELab:16.96/22.15/10.08
+PurpleMadderDark		CIELab:16.96/22.15/10.08
+purple lake light		CIELab:38.26/21.75/-4.99
+PurpleLakeLight			CIELab:38.26/21.75/-4.99
+purple lake medium		CIELab:17.57/16.05/-2.81
+PurpleLakeMedium		CIELab:17.57/16.05/-2.81
+purple lake dark		CIELab:10.47/9.53/0.76
+PurpleLakeDark			CIELab:10.47/9.53/0.76
+magenta light			CIELab:57.55/35.33/-19.13
+MagentaLight			CIELab:57.55/35.33/-19.13
+magenta medium			CIELab:45.08/42.71/-23.89
+MagentaMedium			CIELab:45.08/42.71/-23.89
+magenta dark			CIELab:39.18/43.69/-23.58
+MagentaDark			CIELab:39.18/43.69/-23.58
+perm magenta light		CIELab:60.41/16.89/-16.01
+PermMagentaLight		CIELab:60.41/16.89/-16.01
+perm magenta medium		CIELab:37.43/35.43/-19.90
+PermMagentaMedium		CIELab:37.43/35.43/-19.90
+perm magenta dark		CIELab:23.87/38.97/0.76
+PermMagentaDark			CIELab:23.87/38.97/0.76
+mauve light			CIELab:48.00/8.50/-31.52
+MauveLight			CIELab:48.00/8.50/-31.52
+mauve medium			CIELab:34.12/12.61/-39.86
+MauveMedium			CIELab:34.12/12.61/-39.86
+mauve dark			CIELab:27.90/14.26/-41.59
+MauveDark			CIELab:27.90/14.26/-41.59
+ultramarine violet light	CIELab:68.96/5.91/-10.61
+UltramarineVioletLight		CIELab:68.96/5.91/-10.61
+ultramarine violet medium	CIELab:51.90/10.86/-25.00
+UltramarineVioletMedium		CIELab:51.90/10.86/-25.00
+ultramarine violet dark		CIELab:44.79/12.74/-29.46
+UltramarineVioletDark		CIELab:44.79/12.74/-29.46
+violet light			CIELab:39.94/25.63/-45.49
+VioletLight			CIELab:39.94/25.63/-45.49
+violet medium			CIELab:25.34/27.55/-51.02
+VioletMedium			CIELab:25.34/27.55/-51.02
+violet dark			CIELab:23.16/26.08/-50.11
+VioletDark			CIELab:23.16/26.08/-50.11
+perm mauve light		CIELab:72.49/8.63/-0.07
+PermMauveLight			CIELab:72.49/8.63/-0.07
+perm mauve medium		CIELab:42.88/21.59/-25.02
+PermMauveMedium			CIELab:42.88/21.59/-25.02
+perm mauve dark			CIELab:24.06/28.88/-35.38
+PermMauveDark			CIELab:24.06/28.88/-35.38
+co violet deep light		CIELab:55.55/9.39/-25.05
+CoVioletDeepLight		CIELab:55.55/9.39/-25.05
+co violet deep medium		CIELab:39.26/16.76/-35.28
+CoVioletDeepMedium		CIELab:39.26/16.76/-35.28
+co violet deep dark		CIELab:30.54/21.81/-39.30
+CoVioletDeepDark		CIELab:30.54/21.81/-39.30
+co violet light			CIELab:61.76/15.02/-8.06
+CoVioletLight			CIELab:61.76/15.02/-8.06
+co violet medium		CIELab:51.29/20.11/-15.43
+CoVioletMedium			CIELab:51.29/20.11/-15.43
+co violet dark			CIELab:28.66/30.98/-28.33
+CoVioletDark			CIELab:28.66/30.98/-28.33
+carmine light			CIELab:36.76/46.70/21.45
+CarmineLight			CIELab:36.76/46.70/21.45
+carmine medium			CIELab:26.05/44.73/34.24
+CarmineMedium			CIELab:26.05/44.73/34.24
+carmine dark			CIELab:20.97/41.22/32.41
+CarmineDark			CIELab:20.97/41.22/32.41
+perm crimson light		CIELab:56.47/36.90/10.35
+PermCrimsonLight		CIELab:56.47/36.90/10.35
+perm crimson medium		CIELab:40.70/48.32/23.63
+PermCrimsonMedium		CIELab:40.70/48.32/23.63
+perm crimson dark		CIELab:36.09/49.37/30.32
+PermCrimsonDark			CIELab:36.09/49.37/30.32
+crimson light			CIELab:64.77/28.70/14.09
+CrimsonLight			CIELab:64.77/28.70/14.09
+crimson medium			CIELab:46.77/41.22/18.31
+CrimsonMedium			CIELab:46.77/41.22/18.31
+crimson dark			CIELab:27.82/43.79/33.24
+CrimsonDark			CIELab:27.82/43.79/33.24
+rose madder deep light		CIELab:81.07/12.97/16.33
+RoseMadderDeepLight		CIELab:81.07/12.97/16.33
+rose madder deep medium		CIELab:73.16/22.75/15.29
+RoseMadderDeepMedium		CIELab:73.16/22.75/15.29
+rose madder deep dark		CIELab:69.61/26.82/15.13
+RoseMadderDeepDark		CIELab:69.61/26.82/15.13
+rose madder light		CIELab:81.11/15.92/12.66
+RoseMadderLight			CIELab:81.11/15.92/12.66
+rose madder medium		CIELab:69.04/30.95/15.13
+RoseMadderMedium		CIELab:69.04/30.95/15.13
+rose madder dark		CIELab:59.66/39.69/19.08
+RoseMadderDark			CIELab:59.66/39.69/19.08
+rose dore light			CIELab:88.00/5.21/17.75
+RoseDoreLight			CIELab:88.00/5.21/17.75
+rose dore medium		CIELab:84.09/11.54/19.93
+RoseDoreMedium			CIELab:84.09/11.54/19.93
+rose dore dark			CIELab:81.53/15.64/21.55
+RoseDoreDark			CIELab:81.53/15.64/21.55
+perm rose light			CIELab:53.81/51.89/6.03
+PermRoseLight			CIELab:53.81/51.89/6.03
+perm rose medium		CIELab:47.98/53.35/15.84
+PermRoseMedium			CIELab:47.98/53.35/15.84
+perm rose dark			CIELab:46.02/52.76/20.29
+PermRoseDark			CIELab:46.02/52.76/20.29
+cd red deep light		CIELab:47.25/33.41/25.53
+CdRedDeepLight			CIELab:47.25/33.41/25.53
+cd red deep medium		CIELab:33.10/43.43/36.29
+CdRedDeepMedium			CIELab:33.10/43.43/36.29
+cd red deep dark		CIELab:30.71/42.47/36.52
+CdRedDeepDark			CIELab:30.71/42.47/36.52
+red deep light			CIELab:61.05/41.42/36.10
+RedDeepLight			CIELab:61.05/41.42/36.10
+red deep medium			CIELab:51.24/49.31/47.72
+RedDeepMedium			CIELab:51.24/49.31/47.72
+red deep dark			CIELab:47.30/50.65/50.43
+RedDeepDark			CIELab:47.30/50.65/50.43
+bright red light		CIELab:62.48/37.82/15.46
+BrightRedLight			CIELab:62.48/37.82/15.46
+bright red medium		CIELab:48.74/51.27/32.88
+BrightRedMedium			CIELab:48.74/51.27/32.88
+bright red dark			CIELab:42.23/51.66/48.88
+BrightRedDark			CIELab:42.23/51.66/48.88
+vermilion light			CIELab:76.34/19.04/26.20
+VermilionLight			CIELab:76.34/19.04/26.20
+vermilion medium		CIELab:54.51/42.88/44.04
+VermilionMedium			CIELab:54.51/42.88/44.04
+vermilion dark			CIELab:50.16/45.82/46.00
+VermilionDark			CIELab:50.16/45.82/46.00
+cd red light			CIELab:73.97/22.10/32.35
+CdRedLight			CIELab:73.97/22.10/32.35
+cd red medium			CIELab:58.00/40.83/46.84
+CdRedMedium			CIELab:58.00/40.83/46.84
+cd red dark			CIELab:48.90/49.92/60.33
+CdRedDark			CIELab:48.90/49.92/60.33
+red light			CIELab:70.12/34.50/28.56
+RedLight			CIELab:70.12/34.50/28.56
+red medium			CIELab:54.04/50.64/58.57
+RedMedium			CIELab:54.04/50.64/58.57
+red dark			CIELab:49.27/51.56/65.57
+RedDark				CIELab:49.27/51.56/65.57
+scarlet lake light		CIELab:69.94/35.63/32.60
+ScarletLakeLight		CIELab:69.94/35.63/32.60
+scarlet lake medium		CIELab:61.38/46.09/49.87
+ScarletLakeMedium		CIELab:61.38/46.09/49.87
+scarlet lake dark		CIELab:54.46/50.81/69.67
+ScarletLakeDark			CIELab:54.46/50.81/69.67
+cd scarlet light		CIELab:79.33/17.63/36.78
+CdScarletLight			CIELab:79.33/17.63/36.78
+cd scarlet medium		CIELab:60.09/45.62/76.47
+CdScarletMedium			CIELab:60.09/45.62/76.47
+cd scarlet dark			CIELab:55.74/48.99/81.27
+CdScarletDark			CIELab:55.74/48.99/81.27
+flesh light			CIELab:83.47/6.65/26.59
+FleshLight			CIELab:83.47/6.65/26.59
+flesh medium			CIELab:76.19/14.74/31.72
+FleshMedium			CIELab:76.19/14.74/31.72
+flesh dark			CIELab:69.87/21.25/31.53
+FleshDark			CIELab:69.87/21.25/31.53
+orange light			CIELab:77.31/22.59/54.91
+OrangeLight			CIELab:77.31/22.59/54.91
+orange medium			CIELab:71.78/32.28/70.88
+OrangeMedium			CIELab:71.78/32.28/70.88
+orange dark			CIELab:64.59/42.80/91.56
+OrangeDark			CIELab:64.59/42.80/91.56
+cd orange light			CIELab:83.21/13.75/54.42
+CdOrangeLight			CIELab:83.21/13.75/54.42
+cd orange medium		CIELab:73.46/30.83/93.33
+CdOrangeMedium			CIELab:73.46/30.83/93.33
+cd orange dark			CIELab:69.82/35.85/97.94
+CdOrangeDark			CIELab:69.82/35.85/97.94
+cd yellow deep light		CIELab:81.02/21.35/75.63
+CdYellowDeepLight		CIELab:81.02/21.35/75.63
+cd yellow deep medium		CIELab:73.70/33.09/96.65
+CdYellowDeepMedium		CIELab:73.70/33.09/96.65
+cd yellow deep dark		CIELab:72.50/34.01/94.95
+CdYellowDeepDark		CIELab:72.50/34.01/94.95
+yellow deep light		CIELab:86.87/7.90/84.41
+YellowDeepLight			CIELab:86.87/7.90/84.41
+yellow deep medium		CIELab:84.54/13.22/109.02
+YellowDeepMedium		CIELab:84.54/13.22/109.02
+yellow deep dark		CIELab:82.93/17.63/111.23
+YellowDeepDark			CIELab:82.93/17.63/111.23
+cd yellow light			CIELab:86.48/4.30/88.68
+CdYellowLight			CIELab:86.48/4.30/88.68
+cd yellow medium		CIELab:83.92/11.50/114.71
+CdYellowMedium			CIELab:83.92/11.50/114.71
+cd yellow dark			CIELab:83.44/13.10/115.59
+CdYellowDark			CIELab:83.44/13.10/115.59
+indian yellow light		CIELab:86.14/5.51/107.92
+IndianYellowLight		CIELab:86.14/5.51/107.92
+indian yellow medium		CIELab:82.84/10.91/114.03
+IndianYellowMedium		CIELab:82.84/10.91/114.03
+indian yellow dark		CIELab:81.18/13.03/112.88
+IndianYellowDark		CIELab:81.18/13.03/112.88
+aureolin light			CIELab:90.19/-4.26/62.16
+AureolinLight			CIELab:90.19/-4.26/62.16
+aureolin medium			CIELab:88.20/-2.57/95.74
+AureolinMedium			CIELab:88.20/-2.57/95.74
+aureolin dark			CIELab:85.52/1.54/112.83
+AureolinDark			CIELab:85.52/1.54/112.83
+cd yellow pale light		CIELab:87.49/0.96/92.27
+CdYellowPaleLight		CIELab:87.49/0.96/92.27
+cd yellow pale medium		CIELab:86.33/4.01/123.49
+CdYellowPaleMedium		CIELab:86.33/4.01/123.49
+cd yellow pale dark		CIELab:85.90/4.91/124.34
+CdYellowPaleDark		CIELab:85.90/4.91/124.34
+cr yellow light			CIELab:90.45/-2.71/74.44
+CrYellowLight			CIELab:90.45/-2.71/74.44
+cr yellow medium		CIELab:88.99/0.14/109.97
+CrYellowMedium			CIELab:88.99/0.14/109.97
+cr yellow dark			CIELab:87.89/3.68/116.39
+CrYellowDark			CIELab:87.89/3.68/116.39
+yellow light			CIELab:91.22/-5.46/72.62
+YellowLight			CIELab:91.22/-5.46/72.62
+yellow medium			CIELab:89.30/-1.64/117.40
+YellowMedium			CIELab:89.30/-1.64/117.40
+yellow dark			CIELab:88.23/1.01/119.62
+YellowDark			CIELab:88.23/1.01/119.62
+trans yellow light		CIELab:90.66/-6.03/100.79
+TransYellowLight		CIELab:90.66/-6.03/100.79
+trans yellow medium		CIELab:89.93/-4.12/110.49
+TransYellowMedium		CIELab:89.93/-4.12/110.49
+trans yellow dark		CIELab:88.62/-1.62/116.41
+TransYellowDark			CIELab:88.62/-1.62/116.41
+cd lemon light			CIELab:89.76/-4.33/53.51
+CdLemonLight			CIELab:89.76/-4.33/53.51
+cd lemon medium			CIELab:88.90/-5.39/87.16
+CdLemonMedium			CIELab:88.90/-5.39/87.16
+cd lemon dark			CIELab:88.46/-4.54/107.09
+CdLemonDark			CIELab:88.46/-4.54/107.09
+lemon light			CIELab:89.38/-4.81/57.23
+LemonLight			CIELab:89.38/-4.81/57.23
+lemon medium			CIELab:88.43/-5.80/91.20
+LemonMedium			CIELab:88.43/-5.80/91.20
+lemon dark			CIELab:88.11/-5.05/104.14
+LemonDark			CIELab:88.11/-5.05/104.14
+lemon yellow light		CIELab:90.79/-3.81/41.00
+LemonYellowLight		CIELab:90.79/-3.81/41.00
+lemon yellow medium		CIELab:90.06/-4.75/56.79
+LemonYellowMedium		CIELab:90.06/-4.75/56.79
+lemon yellow dark		CIELab:89.08/-4.64/70.96
+LemonYellowDark			CIELab:89.08/-4.64/70.96
+XCMS_COLORDB_END
