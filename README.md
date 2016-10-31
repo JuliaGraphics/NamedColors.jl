@@ -34,7 +34,7 @@ This does all the normal things that the `colorant` string macro did before.
 But if it fails to find a color using the ones Color.jl has defined, then it goes and searches the big list.
 If it still fails to find a named color, it will give suggestions for the color you meant — this is the easiest way to search for a color name.
 
-![Image showing usage](docs/usage.PNG)
+![Image showing usage](docs/usage.png)
 
 [Code for the above usage example](proto/Usage.ipynb)
 
