@@ -19,8 +19,10 @@ Perhaps you enjoy taking standardization to the next level, with the well define
 
 [Code for the above chart](proto/DemoChart.ipynb)
 
+There's a PDF chart showing all the colors:
+
 ![Chart showing all colors sorted by Luv luminance](docs/namedcolors.png)
-![Link to full size PDF](docs/namedcolors.pdf)
+[Link to full size PDF](docs/namedcolors.pdf)
 
 [Code to generate the PDF](proto/generate-swatch-chart.jl)
 
