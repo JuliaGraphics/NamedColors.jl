@@ -15,13 +15,14 @@ But don't you want the quiet smugness the comes from knowing that your presentat
 
 Perhaps you enjoy taking standardization to the next level, with the well defined colours of the NBS, ranging from *oliveblack* to  *vividgreenishblue*.
 
-![A plot showing a random sample of colors from each set](proto/demo.png)
+![A plot showing a random sample of colors from each set](docs/demo.png)
 
 [Code for the above chart](proto/DemoChart.ipynb)
 
-There's a PDF chart showing all the colors:
+All the colors:
 
 ![Chart showing all colors sorted by Luv luminance](docs/namedcolors.png)
+
 [Link to full size PDF](docs/namedcolors.pdf)
 
 [Code to generate the PDF](proto/generate-swatch-chart.jl)
@@ -33,7 +34,7 @@ This does all the normal things that the `colorant` string macro did before.
 But if it fails to find a color using the ones Color.jl has defined, then it goes and searches the big list.
 If it still fails to find a named color, it will give suggestions for the color you meant — this is the easiest way to search for a color name.
 
-![Image showing usage](proto/usage.PNG)
+![Image showing usage](docs/usage.PNG)
 
 [Code for the above usage example](proto/Usage.ipynb)
 

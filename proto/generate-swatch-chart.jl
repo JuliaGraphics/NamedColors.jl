@@ -41,7 +41,7 @@ function main(imagewidth, imageheight)
     for (k, v) in ALL_COLORS
         col_name  = k
         col_value = (red(v), green(v), blue(v))
-        # get rid of this UFixed crap first
+        # get rid of this UFixed stuff first
         col_value_f = map(x -> convert(Float64, x), col_value)
         # float64 3tuple as dictionary keys, yay, cool
         if haskey(synonyms, col_value_f)
