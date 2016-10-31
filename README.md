@@ -9,23 +9,29 @@
 
 [![codecov.io](http://codecov.io/github/JuliaGraphics/NamedColors.jl/coverage.svg?branch=master)](http://codecov.io/github/oxinabox/NamedColors.jl?branch=master)
 
-[Colors.jl](https://github.com/JuliaGraphics/Colors.jl#color-parsing) supports about 660 colors as named colorants.
-NamedColors.jl supports about 3,500.
-Honestly, the named colours in Colors.jl, and/or its capacity to generate good palletes, are far more useful.
-But don't you want the quiet smugness the comes from knowing that you presentaton is colored with XKCD's *booger*;
-or to really razzele dazzle them with Crayola's *Razzle Dazzle Rose*.
-Perhaps you enjoy taking standardization to the next level, with the well define colours of the NBS, ranging from *oliveblack* to  *vividgreenishblue*.
+[Colors.jl](https://github.com/JuliaGraphics/Colors.jl#color-parsing) supports about 660 colors as named colorants. NamedColors.jl supports about 3,500. Honestly, the named colors in Colors.jl, and/or its capacity to generate good palettes, are far more useful.
+
+But don't you want the quiet smugness the comes from knowing that your presentation is colored with XKCD's *booger*; or to really razzle dazzle them with Crayola's *Razzle Dazzle Rose*?
+
+Perhaps you enjoy taking standardization to the next level, with the well defined colours of the NBS, ranging from *oliveblack* to  *vividgreenishblue*.
 
 ![A plot showing a random sample of colors from each set](proto/demo.png)
 
 [Code for the above chart](proto/DemoChart.ipynb)
 
+There's a PDF chart showing all the colors:
+
+![Chart showing all colors sorted by Luv luminance](docs/namedcolors.png)
+[Link to full size PDF](docs/namedcolors.pdf)
+
+[Code to generate the PDF](proto/generate-swatch-chart.jl)
+
 #Usage
 
-For most users, the main function you are interested in is the exensions to Color.jl's `colant` macro.
+For most users, the main function you are interested in is the extensions to Color.jl's `colorant` macro.
 This does all the normal things that the `colorant` string macro did before.
-But if it fails to find a color using the ones Color.jl has defined, then it goes and searchs the big list.
-If it still fails to find a named color, it will give suggestions for the color you meant -- this is the easiest way to search for a color name.
+But if it fails to find a color using the ones Color.jl has defined, then it goes and searches the big list.
+If it still fails to find a named color, it will give suggestions for the color you meant — this is the easiest way to search for a color name.
 
 ![Image showing usage](proto/usage.PNG)
 
@@ -42,7 +48,7 @@ So if in doubt try:
 ## Over-riding color index
 The big dictionary of colors is defined by a const global `ALL_COLORS`, which has every color defined by this package.
 This is used as the default source of colors, by most functions, and by the `colorant` string macro.
-You can change this -- to use a different, perhaps smaller, color list.
+You can change this — to use a different, perhaps smaller, color list.
 Though it will not change already compiled uses of a `colorant` string macro. It also will not remove the webcolors that Color.jl defines.
 
 ```
@@ -65,7 +71,6 @@ Dict{String,ColorTypes.RGB24} with 949 entries:
   "kermit green"               => RGB24{U8}(0.361,0.698,0.0)
 ```
 
-
 # Sources
 
  - [X11](https://en.wikipedia.org/wiki/X11_color_names) Standard Colors from the X-Windows system
@@ -74,14 +79,7 @@ Dict{String,ColorTypes.RGB24} with 949 entries:
  - [Resene](http://people.csail.mit.edu/jaffer/Color/resenecolours.txt)  1383 colours from [Resene](http://www.resene.co.nz)
  - [NBS](http://people.csail.mit.edu/jaffer/Color/Dictionaries#nbs-anthus) National Bureau of Statistics. 275 colors
  - [Crayola Crayons](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)  not the full set, but 197 colors
- 
- 
 
-
-
-
- 
- 
 # Futher Reading
 Naming colors is actually something experts exist in.
 This package is one for pragmatic use, color names are more complex than many-one lookup tables can provide.
