@@ -64,6 +64,7 @@ Dict{String,ColorTypes.RGB24} with 949 entries:
   "copper"                     => RGB24{U8}(0.714,0.388,0.145)
   "pale"                       => RGB24{U8}(1.0,0.976,0.816)
   "clay brown"                 => RGB24{U8}(0.698,0.443,0.239)
+  ...
   "turquoise green"            => RGB24{U8}(0.016,0.957,0.537)
   "jade"                       => RGB24{U8}(0.122,0.655,0.455)
   "dark sand"                  => RGB24{U8}(0.659,0.561,0.349)
@@ -84,5 +85,24 @@ Dict{String,ColorTypes.RGB24} with 949 entries:
 # Futher Reading
 Naming colors is actually something experts exist in.
 This package is one for pragmatic use, color names are more complex than many-one lookup tables can provide.
+A lot of these colors come from the dictionaries collected by 
 
  - http://people.csail.mit.edu/jaffer/Color/Dictionaries
+
+
+# Some of the licenses on the data files are scary
+The code is MIT licensed. The datafiles are each individually lisenced.
+
+One should be aware that you can not copyright a color.
+You can trademark it, but that is a different thing, and not a concern here.
+Similarly you can trademark its name, but that is still not a concern.
+Trademarking protects agaist someone using your branding, as a attempt to imitate you.
+
+What is a concern is that you can copyright the lists as a whole.
+And most of the lists (except XKCD) have been copyrighted as such, but licensed for use.
+The lists I am distributing are being distributed according to those licenses.
+The scariest license is actually the CC-SSA from wikipedia for the Crayola color names.
+
+But in it is all fine, the licenses are on the data, not on the code.
+The code is not derived from the data -- the package as a whole is a "Collection" incorperating several works.
+roughly speaking, CC-SSA imposes it's viral restrictions on Derivative Works, not on Collections (the license actually goes into some detail about this).
