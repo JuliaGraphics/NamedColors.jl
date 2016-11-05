@@ -43,6 +43,6 @@ end
 @testset "WinsorNewton" begin
 	data = load_winsor_newton()
 	@test length(data) == 600
-	data["purple lake light"] == reinterpret(RGB24, 0x784D63)
+	@test data["purple lake light"] == reinterpret(RGB24, 0x784D63)
 end
 

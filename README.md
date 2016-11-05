@@ -9,11 +9,13 @@
 
 [![codecov.io](http://codecov.io/github/JuliaGraphics/NamedColors.jl/coverage.svg?branch=master)](http://codecov.io/github/oxinabox/NamedColors.jl?branch=master)
 
-[Colors.jl](https://github.com/JuliaGraphics/Colors.jl#color-parsing) supports about 660 colors as named colorants. NamedColors.jl supports about 3,500. Honestly, the named colors in Colors.jl, and/or its capacity to generate good palettes, are far more useful.
+[Colors.jl](https://github.com/JuliaGraphics/Colors.jl#color-parsing) supports about 660 colors as named colorants.
+NamedColors.jl supports about 4,000. 
+Honestly, the named colors in Colors.jl, and/or its capacity to generate good palettes, are far more useful.
 
 But don't you want the quiet smugness the comes from knowing that your presentation is colored with XKCD's *booger*; or to really razzle dazzle them with Crayola's *Razzle Dazzle Rose*?
 
-Perhaps you enjoy taking standardization to the next level, with the well defined colours of the NBS, ranging from *oliveblack* to  *vividgreenishblue*.
+Perhaps you enjoy taking standardization to the next level, with the well defined colours from the NBS, ranging from *oliveblack* to  *vividgreenishblue*.
 
 ![A plot showing a random sample of colors from each set](docs/demo.png)
 
@@ -80,6 +82,7 @@ Dict{String,ColorTypes.RGB24} with 949 entries:
  - [Resene](http://people.csail.mit.edu/jaffer/Color/resenecolours.txt)  1383 colours from [Resene](http://www.resene.co.nz)
  - [NBS](http://people.csail.mit.edu/jaffer/Color/Dictionaries#nbs-anthus) National Bureau of Statistics. 275 colors
  - [Crayola Crayons](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)  not the full set, but 197 colors
+ - [Winsor Newton Water Colors](http://people.csail.mit.edu/jaffer/Color/Dictionaries#winsor-newton) 300 colors, based on the paints of [Winsor Newton](www.winsornewton.com/)
 
 # Futher Reading
 Naming colors is actually something experts exist in.
