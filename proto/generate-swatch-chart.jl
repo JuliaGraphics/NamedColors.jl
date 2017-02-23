@@ -108,7 +108,7 @@ function main(imagewidth, imageheight)
     #footer
     fontsize(10)
     text("drawn $(Dates.format(Dates.now(), "yyyy-mm-dd HH:MM:SS")), $(length(ALL_COLORS)) named colors", imagewidth/2, imageheight-margin, halign=:center)
-    finish(
+    finish()
     preview()
 end
 
