@@ -29,7 +29,7 @@ All the colors:
 
 [Code to generate the PDF](proto/generate-swatch-chart.jl)
 
-#Usage
+# Usage
 
 For most users, the main function you are interested in is the extensions to Color.jl's `colorant` macro.
 This does all the normal things that the `colorant` string macro did before.
