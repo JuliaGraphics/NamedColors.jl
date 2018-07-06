@@ -2,21 +2,21 @@
 """
 Returns list of similarly named colors, from the color_list
 """
-function similarly_named_colors{S<:AbstractString}(
+function similarly_named_colors(
 		name::AbstractString,
-		color_list::Associative{S} = ALL_COLORS)
+		color_list::AbstractDict{S} = ALL_COLORS) where {S<:AbstractString}
     
-	Base.Docs.levsort(name, collect(keys(color_list)))
+	levsort(name, collect(keys(color_list)))
 end
 
-type UnknownColorError{S<:AbstractString} <:Exception
+struct UnknownColorError{S<:AbstractString} <:Exception
     name::S
     msg::String
 end
 
-function UnknownColorError{S<:AbstractString}(
+function UnknownColorError(
 		name::AbstractString,
-		color_list::Associative{S})
+		color_list::AbstractDict{S}) where {S<:AbstractString}
     
 	similars = similarly_named_colors(name, color_list)
     msg=if length(similars)==0
@@ -36,7 +36,7 @@ Base.showerror(io::IO, ex::UnknownColorError) = print(io, "UnknownColorError: $(
 Returns a color with the given name.
 If not found,a list of suggestions is provided.
 """
-function named_color{S<:AbstractString}(name::AbstractString, color_list::Associative{S} = ALL_COLORS)
+function named_color(name::AbstractString, color_list::AbstractDict{S} = ALL_COLORS) where {S<:AbstractString}
     
     if haskey(color_list, name)
         color_list[name]

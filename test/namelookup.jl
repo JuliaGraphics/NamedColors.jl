@@ -6,7 +6,7 @@
 		named_color("Steal Blue")
 
 	catch ex
-		@test contains(ex.msg, "Steel Blue")
+		@test occursin("Steel Blue", ex.msg)
 	end
 	
 end
@@ -19,7 +19,7 @@ end
 end
 
 @testset "colorant_str macro gets original functionality" begin
-	@test colorant"#32cd32" == RGB{U8}(0.196,0.804,0.196)
-	@test colorant"purple" == RGB{U8}(0.502,0.0,0.502)
+	@test colorant"#32cd32" == RGB{N0f8}(0.196,0.804,0.196)
+	@test colorant"purple" == RGB{N0f8}(0.502,0.0,0.502)
 end
 
