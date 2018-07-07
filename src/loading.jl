@@ -9,7 +9,7 @@ end
 Parses as string of the form #RRGGBB
 eg \"#32CD32\" (limegreen) into a color
 """
-parse_hexcode(h::AbstractString) = reinterpret(RGB24, parse(UInt32,h[2:end],16))
+parse_hexcode(h::AbstractString) = reinterpret(RGB24, parse(UInt32,h[2:end],base=16))
 
 "Parses three strings that are integers between 0-255, and converts to color"
 function parse_decimal256(r::AbstractString, 
@@ -68,7 +68,7 @@ function load_xcms_colordb(filename)
     for line in lines
         startswith(line, "XCMS_COLORDB_END") && break
         
-        name, colorcode = split(line, '\t'; keep=false)
+        name, colorcode = split(line, '\t'; keepempty=false)
         spec, vals = split(colorcode, ":")
         @assert spec == "CIELab" "Only CIELab format supported right now"
         col = parse_CieLab(vals)
