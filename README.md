@@ -9,7 +9,7 @@
 
 [![codecov.io](http://codecov.io/github/JuliaGraphics/NamedColors.jl/coverage.svg?branch=master)](http://codecov.io/github/oxinabox/NamedColors.jl?branch=master)
 
-[Colors.jl](http://juliagraphics.github.io/Colors.jl/stable/namedcolors.html) supports about 660 colors as named colorants.
+[Colors.jl](https://juliagraphics.github.io/Colors.jl/stable/namedcolors.html) supports about 660 colors as named colorants.
 NamedColors.jl supports about 4,000. 
 Honestly, the named colors in Colors.jl, and/or its capacity to generate good palettes, are far more useful.
 
