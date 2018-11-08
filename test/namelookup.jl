@@ -2,13 +2,16 @@
 @testset "named lookup" begin
 	@test_throws UnknownColorError named_color("redish")
 
-	try 
+	try
 		named_color("Steal Blue")
 
 	catch ex
 		@test occursin("Steel Blue", ex.msg)
 	end
-	
+
+	similar_names = NamedColors.similarly_named_colors("Razzle Dazzle Nose")
+	@test similar_names[1] == "Razzle Dazzle Rose"
+	@test similar_names isa Vector{String}
 end
 
 @testset "colorant_str macro gets named colors" begin
@@ -22,4 +25,3 @@ end
 	@test colorant"#32cd32" == RGB{N0f8}(0.196,0.804,0.196)
 	@test colorant"purple" == RGB{N0f8}(0.502,0.0,0.502)
 end
-
