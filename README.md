@@ -1,6 +1,6 @@
 # NamedColors
 
-[![Build Status](https://travis-ci.org/JuliaGraphics/NamedColors.jl.svg?branch=master)](https://travis-ci.org/oxinabox/NamedColors.jl)
+[![Build Status](https://travis-ci.org/JuliaGraphics/NamedColors.jl.svg?branch=master)](https://travis-ci.org/JuliaGraphics/NamedColors.jl)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/st69c4d3j8wt4sdk?svg=true)](https://ci.appveyor.com/project/oxinabox/namedcolors-jl)
 
@@ -9,7 +9,7 @@
 
 [![codecov.io](http://codecov.io/github/JuliaGraphics/NamedColors.jl/coverage.svg?branch=master)](http://codecov.io/github/oxinabox/NamedColors.jl?branch=master)
 
-[Colors.jl](https://github.com/JuliaGraphics/Colors.jl#color-parsing) supports about 660 colors as named colorants.
+[Colors.jl](https://juliagraphics.github.io/Colors.jl/stable/namedcolors.html) supports about 660 colors as named colorants.
 NamedColors.jl supports about 4,000. 
 Honestly, the named colors in Colors.jl, and/or its capacity to generate good palettes, are far more useful.
 
