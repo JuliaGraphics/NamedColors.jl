@@ -94,7 +94,7 @@ A lot of these colors come from the dictionaries collected by
 
 
 # Some of the licenses on the data files are scary
-The code is MIT licensed. The datafiles are each individually lisenced.
+The code is MIT licensed. The datafiles are each individually licensed.
 
 One should be aware that you can not copyright a color.
 You can trademark it, but that is a different thing, and not a concern here.
