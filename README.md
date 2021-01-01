@@ -107,5 +107,5 @@ The lists I am distributing are being distributed according to those licenses.
 The scariest license is actually the CC-SSA from wikipedia for the Crayola color names.
 
 But in it is all fine, the licenses are on the data, not on the code.
-The code is not derived from the data -- the package as a whole is a "Collection" incorperating several works.
+The code is not derived from the data -- the package as a whole is a "Collection" incorporating several works.
 roughly speaking, CC-SSA imposes it's viral restrictions on Derivative Works, not on Collections (the license actually goes into some detail about this).
