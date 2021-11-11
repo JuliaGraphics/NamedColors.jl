@@ -15,14 +15,15 @@ This is the initialised for the globel const ALL_COLORS, used by "@colorant"
 """
 function load_all_colors(load_functions = (
     load_resene,
-    load_xkcd, 
+    load_xkcd,
     load_nbs,
 	load_winsor_newton,
     load_x11,
     load_crayola,
     load_css3,
+    load_paul_tol,
     ))
-    
+
     merge!(Dict{String, RGB24}(), map(x->x(), load_functions)...)
 end
 

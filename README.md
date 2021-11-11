@@ -10,7 +10,7 @@
 [![codecov.io](http://codecov.io/github/JuliaGraphics/NamedColors.jl/coverage.svg?branch=master)](http://codecov.io/github/oxinabox/NamedColors.jl?branch=master)
 
 [Colors.jl](https://juliagraphics.github.io/Colors.jl/stable/namedcolors.html) supports about 660 colors as named colorants.
-NamedColors.jl supports about 4,000. 
+NamedColors.jl supports about 4,000.
 Honestly, the named colors in Colors.jl, and/or its capacity to generate good palettes, are far more useful.
 
 But don't you want the quiet smugness the comes from knowing that your presentation is colored with XKCD's *booger*; or to really razzle dazzle them with Crayola's *Razzle Dazzle Rose*?
@@ -88,7 +88,7 @@ Dict{String,ColorTypes.RGB24} with 949 entries:
 # Futher Reading
 Naming colors is actually something experts exist in.
 This package is one for pragmatic use, color names are more complex than many-one lookup tables can provide.
-A lot of these colors come from the dictionaries collected by 
+A lot of these colors come from the dictionaries collected by
 
  - http://people.csail.mit.edu/jaffer/Color/Dictionaries
 
@@ -99,7 +99,7 @@ The code is MIT licensed. The datafiles are each individually licensed.
 One should be aware that you can not copyright a color.
 You can trademark it, but that is a different thing, and not a concern here.
 Similarly you can trademark its name, but that is still not a concern.
-Trademarking protects agaist someone using your branding, as a attempt to imitate you.
+Trademarking protects against someone using your branding, as a attempt to imitate you.
 
 What is a concern is that you can copyright the lists as a whole.
 And most of the lists (except XKCD) have been copyrighted as such, but licensed for use.
