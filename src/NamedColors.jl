@@ -3,7 +3,7 @@ using ColorTypes
 using REPL: levsort
 import Colors: @colorant_str
 
-export load_xkcd, load_resene, load_nbs, load_x11_style, load_winsor_newton, load_x11, load_css3, load_crayola, ALL_COLORS, @colorant_str, UnknownColorError, named_color
+export load_xkcd, load_resene, load_nbs, load_x11_style, load_winsor_newton, load_x11, load_css3, load_crayola, load_paul_tol, ALL_COLORS, @colorant_str, UnknownColorError, named_color
 
 include("loading.jl")
 
