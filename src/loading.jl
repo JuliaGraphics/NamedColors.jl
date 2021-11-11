@@ -97,7 +97,11 @@ Load the color list from [Paul Tol's Notes](https://personal.sron.nl/~pault/).
 These colors are suitable for use with (modern) monitors
 """
 function load_paul_tol()
-	linefields = (split(line,"\t") for line in eachline(datafile("paul-tol.txt")))
+    linefields = []
+    for line in eachline(datafile("paul-tol.txt"))
+        startswith(line,";") && continue
+        push!(linefields, split(line,"\t"))
+    end
 	Dict((name => parse_hexcode(code)) for (name,code) in linefields)
 end
 
