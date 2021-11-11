@@ -1,0 +1,45 @@
+; "paul-tol.txt" color dictionary
+; The colors from Paul Tol, https://personal.sron.nl/~pault/,
+;
+; transcribed to NamedCOlors.jl by Ronny Bergmann (kellertuer).
+;
+brightblue	#4477aa
+brightcyan	#66ccee
+brightgreem	#228833
+brightyellow	#ccbb44
+brightred	#ee6677
+brightpurple	#aa3377
+brightgrey	#bbbbbb
+highcontrastwhite   #ffffff
+highcontrastyellow  #ddaa33
+highcontrastred #bb5566
+highconstrastblue   #004488
+highcontrastblack   #000000
+
+vibrant
+
+muted
+
+mediumcontrast
+
+pale
+
+dark
+
+light
+
+Sunset
+
+RdBu
+
+PRGn
+
+YlOrBr
+
+Irisdescent
+
+DiscreteRainbow
+
+SmoothRainbow
+
+GroundCover
