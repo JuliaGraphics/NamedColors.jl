@@ -61,13 +61,3 @@ lightyellow	#eedd88
 lightorange	#ee8866
 lightpink	#ffaabb
 lightgrey	#dddddd
-;
-; The following are still missing
-;Sunset
-;RdBu
-;PRGn
-;YlOrBr
-;Irisdescent
-;DiscreteRainbow
-;SmoothRainbow
-;GroundCover
