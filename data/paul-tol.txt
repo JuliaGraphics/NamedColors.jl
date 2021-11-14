@@ -61,3 +61,17 @@ lightyellow	#eedd88
 lightorange	#ee8866
 lightpink	#ffaabb
 lightgrey	#dddddd
+water	#5566AA
+evergreen needleleaf forest	#117733
+decidous needleleaf forest	#44AA66
+mixed forest	#55AA22
+evergreen broadleaf forest	#668822
+decidous broadleaf foest	#99BB55
+woodland	#558877
+wooded grassland	#88BBAA
+grassland	#AADDCC
+cropland	#44AA88
+closed shrubland	#DDCC66
+open shrubland	#FFDD44
+bare ground	#FFEE88
+urban and built up	#BB0011
