@@ -1,7 +1,7 @@
 ; "paul-tol.txt" color dictionary
 ; The colors from Paul Tol, https://personal.sron.nl/~pault/,
 ;
-; transcribed to NamedCOlors.jl by Ronny Bergmann (kellertuer).
+; transcribed to NamedColors.jl by Ronny Bergmann (kellertuer).
 ;
 brightblue	#4477aa
 brightcyan	#66ccee
