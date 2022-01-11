@@ -1,0 +1,77 @@
+; "paul-tol.txt" color dictionary
+; The colors from Paul Tol, https://personal.sron.nl/~pault/,
+;
+; transcribed to NamedColors.jl by Ronny Bergmann (kellertuer).
+;
+brightblue	#4477aa
+brightcyan	#66ccee
+brightgreem	#228833
+brightyellow	#ccbb44
+brightred	#ee6677
+brightpurple	#aa3377
+brightgrey	#bbbbbb
+highcontrastwhite	#ffffff
+highcontrastyellow	#ddaa33
+highcontrastred	#bb5566
+highconstrastblue	#004488
+highcontrastblack	#000000
+vibrantblue	#0077bb
+vibrantcyan	#33bbee
+vibrantteal	#009988
+vibrantorange	#ee7733
+vibrantred	#cc3311
+vibrantmagenta	#ee3377
+vibrantgrey	#bbbbbb
+mutedindigo	#332288
+mutedcyan	#88ccee
+mutedteal	#44aa99
+mutedgreen	#117733
+mutedolive	#999933
+mutedsand	#ddcc77
+mutedrose	#cc6677
+mutedwine	#882255
+mutedpurple	#aa4499
+mutedgrey	#dddddd
+mediumcontrastwhite	#ffffff
+mediumcontrastlightyellow	#eecc66
+mediumcontrastlightred	#ee99aa
+mediumcontrastlightblue	#6699cc
+mediumcontrastdarkyellow	#997700
+mediumcontrastdarkred	#994455
+mediumcontrastdarkblue	#004488
+mediumcontrastblack	#000000
+paleblue	#bbccee
+palecyan	#cceeff
+palegreen	#ccddaa
+paleyellow	#eeeebb
+palered	#ffcccc
+palegrey	#dddddd
+darkblue	#222255
+darkcyan	#225555
+darkgreen	#225522
+darkyellow	#666633
+darkred	#663333
+darkgrey	#555555
+lightblue	#77aadd
+lightcyan	#99ddff
+lightmint	#44bb99
+lightpear	#bbcc33
+lightolive	#aaaa00
+lightyellow	#eedd88
+lightorange	#ee8866
+lightpink	#ffaabb
+lightgrey	#dddddd
+water	#5566AA
+evergreen needleleaf forest	#117733
+decidous needleleaf forest	#44AA66
+mixed forest	#55AA22
+evergreen broadleaf forest	#668822
+decidous broadleaf foest	#99BB55
+woodland	#558877
+wooded grassland	#88BBAA
+grassland	#AADDCC
+cropland	#44AA88
+closed shrubland	#DDCC66
+open shrubland	#FFDD44
+bare ground	#FFEE88
+urban and built up	#BB0011

@@ -12,7 +12,7 @@ eg \"#32CD32\" (limegreen) into a color
 parse_hexcode(h::AbstractString) = reinterpret(RGB24, parse(UInt32,h[2:end],base=16))
 
 "Parses three strings that are integers between 0-255, and converts to color"
-function parse_decimal256(r::AbstractString, 
+function parse_decimal256(r::AbstractString,
                             g::AbstractString,
                             b::AbstractString)
     ret = 0x00_00_00_00
@@ -30,7 +30,7 @@ function parse_CieLab(vals)
     Lab(l,a,b)
 end
 
-######### Formats parsers 
+######### Formats parsers
 """
 Loads an x11 style color list.
 Lines are of the form
@@ -44,7 +44,7 @@ function load_x11_style(path)
     for line in lines
         line[1]=='!'  && continue
         fields = split(line)
-        length(fields)==-0 && continue 
+        length(fields)==-0 && continue
 		r, g, b = fields[1:3]
         name = strip(join(fields[4:end]," "))
         data[name] = parse_decimal256(r,g,b)
@@ -63,16 +63,16 @@ function load_xcms_colordb(filename)
     for line in lines
         startswith(line, "XCMS_COLORDB_START") && break
     end
-    
+
     #Now at the data
     for line in lines
         startswith(line, "XCMS_COLORDB_END") && break
-        
+
         name, colorcode = split(line, '\t'; keepempty=false)
         spec, vals = split(colorcode, ":")
         @assert spec == "CIELab" "Only CIELab format supported right now"
         col = parse_CieLab(vals)
-        
+
         ret[name] = convert(RGB24, col)
     end
     ret
@@ -89,24 +89,36 @@ These colors are suitable for use with (modern) monitors
 """
 function load_xkcd()
 	linefields = (split(line,"\t") for line in eachline(datafile("xkcd.txt")))
-	Dict((name => parse_hexcode(code)) for (name,code) in linefields) 
+	Dict((name => parse_hexcode(code)) for (name,code) in linefields)
 end
 
+"""
+Load the color list from [Paul Tol's Notes](https://personal.sron.nl/~pault/).
+These colors are suitable for use with (modern) monitors
+"""
+function load_paul_tol()
+    linefields = []
+    for line in eachline(datafile("paul-tol.txt"))
+        startswith(line,";") && continue
+        push!(linefields, split(line,"\t"))
+    end
+	Dict((name => parse_hexcode(code)) for (name,code) in linefields)
+end
 
 """
 load the color list from Resene Paints Ltd
 These colors are best used with paint.
 """
 function load_resene()
-    
+
     lines = eachline(datafile("resenecolours.txt"))
-    for line in lines 
+    for line in lines
         startswith(line, "\"Colour Name\"") && break
     end
     #get to the good part
-    
+
     data = Dict{String, RGB24}()
-    
+
     for line in lines
         namefield, rr, gg, bb = split(line,"\t")
         name = namefield[1+length("\"Resene ") : end-1] #skip the end \"
@@ -127,7 +139,7 @@ Loads the NBS-ISCC color dictionary from
     National Bureau of Standards,
     Spec. Publ. 440, Dec. 1976, 189 pages
 
-Featuring the corrections by John Foster 
+Featuring the corrections by John Foster
 to the orignal computer entry of David Mundie
 
 This is suitable for surface colors
