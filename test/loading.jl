@@ -1,5 +1,11 @@
 
 @testset "xkcd" begin
+  tailwind = load_tailwind()
+	@test length(tailwind) == 220
+	@test tailwind["sky.400"] == RGB24(0.22, 0.741, 0.973)
+end
+
+@testset "xkcd" begin
 	xkcd = load_xkcd()
 	@test length(xkcd) == 949
 	@test xkcd["purple"] == RGB24(0.494,0.118,0.612)

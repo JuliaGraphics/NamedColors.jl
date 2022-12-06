@@ -84,6 +84,15 @@ end
 ########## Specific formats for specific instances
 
 """
+Load the color list from [TailwindCSS](https://tailwindcss.org/docs/customizing-colors).
+These colors are suitable for use with (modern) monitors.
+"""
+function load_tailwind()
+	linefields = (split(line," "; keepempty=false) for line in eachline(datafile("tailwind.txt")))
+	Dict((name => parse_hexcode(code)) for (name,code) in linefields)
+end
+
+"""
 Load the color list from the [XKCD color survey](https://blog.xkcd.com/2010/05/03/color-survey-results/).
 These colors are suitable for use with (modern) monitors
 """
