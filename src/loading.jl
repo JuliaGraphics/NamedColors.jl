@@ -88,7 +88,11 @@ Load the color list from [TailwindCSS](https://tailwindcss.org/docs/customizing-
 These colors are suitable for use with (modern) monitors.
 """
 function load_tailwind()
-	linefields = (split(line," "; keepempty=false) for line in eachline(datafile("tailwind.txt")))
+    linefields = []
+    for line in eachline(datafile("tailwind.txt"))
+        startswith(line, ";") && continue
+        push!(linefields, split(line, " "; keepempty=false))
+    end
 	Dict((name => parse_hexcode(code)) for (name,code) in linefields)
 end
 
