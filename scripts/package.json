@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "tailwindcss": "^3.2.4"
-  }
-}

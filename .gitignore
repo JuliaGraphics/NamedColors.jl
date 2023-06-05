@@ -3,6 +3,3 @@
 *.jl.mem
 **.ipynb_checkpoints**
 Manifest.toml
-
-scripts/node_modules/
-scripts/package-lock.json
