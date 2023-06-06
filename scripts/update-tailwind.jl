@@ -5,7 +5,11 @@ The source data for the color paletee is on GitHub: https://github.com/tailwindl
 
 The color palette can be viewed here: https://tailwindcss.com/docs/customizing-colors
 
-Last updated on 05 Jun 2023.
+For the original JavaScript implementation that retrieves the TailwindCSS colors from
+  their JavaScript library, check the following GitHub Gist.
+  https://gist.github.com/jmuchovej/e8470f3b01420cac006c428861ddbd9b
+
+Last updated on 06 Jun 2023.
 """
 using NodeJS
 using JSON
