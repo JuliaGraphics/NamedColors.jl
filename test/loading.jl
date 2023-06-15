@@ -1,4 +1,10 @@
 
+@testset "tailwind" begin
+  tailwind = load_tailwind()
+	@test length(tailwind) == 242
+	@test tailwind["sky.400"] == reinterpret(RGB24, 0x38bdf8)
+end
+
 @testset "xkcd" begin
 	xkcd = load_xkcd()
 	@test length(xkcd) == 949

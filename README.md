@@ -80,6 +80,8 @@ Dict{String,ColorTypes.RGB24} with 949 entries:
  - [NBS](http://people.csail.mit.edu/jaffer/Color/Dictionaries#nbs-anthus) National Bureau of Statistics. 275 colors
  - [Crayola Crayons](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)  not the full set, but 197 colors
  - [Winsor Newton Water Colors](http://people.csail.mit.edu/jaffer/Color/Dictionaries#winsor-newton) 300 colors, based on the paints of [Winsor Newton](www.winsornewton.com/)
+ - [Paul Tol](https://personal.sron.nl/~pault/) 72 colors from Paul Tol
+ - [Tailwind](https://tailwindcss.com/docs/customizing-colors) 242 colors from a highly popular CSS-framework.
 
 # Futher Reading
 Naming colors is actually something experts exist in.
