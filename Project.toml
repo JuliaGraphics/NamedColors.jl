@@ -1,6 +1,6 @@
 name = "NamedColors"
 uuid = "51fcb6bd-ecd8-522c-95bc-4099d1d03463"
-version = "0.2.1"
+version = "0.2.2"
 
 [deps]
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
